@@ -1,0 +1,106 @@
+:root {
+  --main-color: #000;
+  --sub-color: #111;
+  --text-color: #fff;
+  --subText-color: #ff9601;
+  --bg-image: linear-gradient(to right, #c02425 0%, #f0cb35 51%, #c02425 100%);
+  --sub-menu: #121212;
+  --item-width: 276px;
+  --wrapper-item: 1380px;
+}
+body {
+  background-color: #1a1a1a;
+}
+* {
+  padding: 0;
+  margin: 0;
+  outline: none;
+  box-sizing: inherit;
+}
+html {
+  font-size: 62.5%; /*ta có 100% = 16px => 10px=62.5%*/
+  line-height: 1.6rem; /*khoảng cach giữa các dòng*/
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+h1 {
+  margin: 0;
+}
+img {
+  vertical-align: middle;
+}
+.justify {
+  justify-content: space-between;
+}
+div {
+  display: block;
+}
+.lable {
+  position: absolute;
+  padding: 5px;
+  margin-left: 8px;
+  font-size: 1.1rem;
+  line-height: 11px;
+  color: var(--text-color);
+  background-image: var(--bg-image);
+  font-weight: 400;
+  border-radius: 4px;
+  z-index: 2;
+  border: 1px solid #1b2a3900;
+  background-size: 200% 100%;
+}
+.lable::before {
+  content: "";
+  position: absolute;
+  transform: translateX(-50%);
+  border-top: 6px solid #dd8b52;
+  border-left: 6px solid transparent;
+  display: block;
+  border-right: 6px solid transparent;
+  bottom: -7px;
+  left: 50%;
+}
+.name-film {
+  /* width: 100%; */
+  position: absolute;
+  bottom: 3px;
+  left: 8px;
+  right: 8px;
+  padding: 10px;
+  color: #fff;
+  font-size: 15px;
+  background: rgba(0, 0, 0, 0.7);
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.icon-play {
+  color: #ff9601c9;
+  font-size: 50px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin: -25px 0 0 -25px;
+  border-radius: 50%;
+  opacity: 0;
+  transform: scale(1.2);
+  transition: all 0.3s ease-in-out;
+}
+.btn {
+  padding: 12px;
+  /* background: #36829a; */
+  text-align: center;
+  font-size: 1.4rem;
+  white-space: nowrap;
+  line-height: 14px;
+  color: var(--text-color);
+  font-weight: 500;
+}
