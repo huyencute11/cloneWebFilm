@@ -31,7 +31,7 @@ function FilmDetail(){
   else if(arr== 'newMovieUpdateBot'){
     return newMovieUpdateBot.find((e) => e.id == x)
   }
-  else if(arr== ' topFilms'){
+  else if(arr== 'topFilms'){
     return  topFilms.find((e) => e.id == x)
   }
   else if(arr== 'comingFilms'){

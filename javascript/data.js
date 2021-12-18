@@ -1159,7 +1159,7 @@ export const topFilms = [
         id : 2,
         arr: 'topFilms',
         img: './assets/image/decu/squidGame.jfif',
-        video : './assets/image/decu/squidGame.jfif',
+        video : './assets/video/squidgame.mp4',
         name : 'Trò chơi con mực',
         year : 2021,
         episodes : 9,
