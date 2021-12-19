@@ -525,7 +525,7 @@ const recommendFilms = [
     {
         id : 30,
         arr: 'recommendFilms',
-        img: '/assets/image/decu/thoatKhoi.jfif',
+        img: '/assets/image/decu/Newark.jpg',
         video : './assets/video/tryQuetMatuy.mp4',
         name : 'Thoát khỏi Mogadishu',
         year : 2021,
